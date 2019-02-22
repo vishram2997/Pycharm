@@ -35,7 +35,7 @@ names = names[0:,0:7]
 #print(names)
 
 #print(gender)
-for code in bytearray('seema','ascii'):
+for code in bytearray('seema`','ascii'):
     x = []
     x.append(code)
     if len(x) < 7:
